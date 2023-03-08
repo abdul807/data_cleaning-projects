@@ -1,0 +1,10 @@
+Data cleaning to retrieve the COUNTRY name
+
+1.Used the (=right) formula to take 10 characters from the field
+---Note that the country names were at the far right of the characters
+
+2.Splitted the (right field) using text to columns using the comma symbol
+---ar, Russia
+
+3. Used if function to populate the empty cells
+-- if(len(cell reference) = 0,cell to use,take old cell)
